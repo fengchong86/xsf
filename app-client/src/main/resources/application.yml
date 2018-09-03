@@ -1,0 +1,9 @@
+server:
+  port: 10006
+
+spring:
+  application:
+    name: service-client
+eureka:
+  client:
+    service-url: http://localhost:10000/eureka/
